@@ -1,2 +1,2 @@
-# front-end-fundamentals-challenges
+# front-end-fundamentals
 front end challenges
