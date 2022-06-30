@@ -42,25 +42,110 @@
         </div>
     </header>
     <aside>
-        <a href="#"> 
-            <span class="material-symbols-outlined icon weight">home</span>
-            <h4>Inicio</h4>
-        </a>
-        <a href="#">
-            <span class="material-symbols-outlined icon weight">explore</span>
-            <h4>Explorar</h4>
-        </a>      
-        <a href="#">
-            <span class="material-symbols-outlined icon weight">subscriptions</span>
-            <h4>Suscripciones</h4>
-        </a>
-        <a href="#">
-            <span class="material-symbols-outlined icon weight">video_library</span>
-            <h4>Biblioteca</h4>
-        </a>
+        <div class="iconSelected">
+            <a href="#"> 
+                <span class="material-symbols-outlined icon weight">home</span>
+                <h4>Inicio</h4>
+            </a>
+        </div>
+        <div class="iconSelected">
+            <a href="#">
+                <span class="material-symbols-outlined icon weight">explore</span>
+                <h4>Explorar</h4>
+            </a>
+        </div>
+        <div class="iconSelected">      
+            <a href="#">
+                <span class="material-symbols-outlined icon weight">subscriptions</span>
+                <h4>Suscripciones</h4>
+            </a>
+        </div>
+        <div class="iconSelected">
+            <a href="#">
+                <span class="material-symbols-outlined icon weight">video_library</span>
+                <h4>Biblioteca</h4>
+            </a>
+        </div>
     </aside>
     <main class="grid">
-        <!--FALTA AJUSTA EL TITULO DEL VIDEO AL CONTENIDO-->
+        <section class="videoContainer">
+            <iframe 
+                src="https://www.youtube.com/embed/TpOAqHU-Z_I"
+                title="CREA TU APP" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            <div class="infoContainer">
+                <div class="descriptionContainer">
+                    <div class="avatarContainer">
+                        <div class="avatar">
+                            <img class="avatars" src="./assets/user1.png" alt="avatar1">
+                        </div>
+                    </div>
+                    <div class="titleContainer">
+                        <h6 class="title">The Most Decorated Olympian - Michael Phelps</h6>
+                    </div>
+                    <span class="material-symbols-outlined icon vertIcon">more_vert</span>
+                </div>
+                <div class="viewsContainer">
+                    <p id="name">EntreXpreneur</p>
+                    <p>225.875 visualizaciones . 2 años</p>
+                </div>                                   
+            </div>
+        </section>
+        <section class="videoContainer">
+            <iframe 
+                src="https://www.youtube.com/embed/WXdX6TKmx-U" 
+                title="CREA TU APP" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            <div class="infoContainer">
+                <div class="descriptionContainer">
+                    <div class="avatarContainer">
+                        <div class="avatar">
+                            <img class="avatars" src="./assets/user2.png" alt="avatar1">
+                        </div>
+                    </div>
+                    <div class="titleContainer">
+                        <h6 class="title">El guardia Husky siberiano</h6>
+                    </div>
+                    <span class="material-symbols-outlined icon vertIcon">more_vert</span>
+                </div>
+                <div class="viewsContainer">
+                    <p id="name">Miguel Penilla</p>
+                    <p>1,152 visualizaciones . 1 año</p>
+                </div>                                   
+            </div>
+        </section>
+        <section class="videoContainer">
+            <iframe 
+                src="https://www.youtube.com/embed/v3NH6kG-O3s" 
+                title="CREA TU APP" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            <div class="infoContainer">
+                <div class="descriptionContainer">
+                    <div class="avatarContainer">
+                        <div class="avatar">
+                            <img class="avatars" src="./assets/user3.png" alt="avatar1">
+                        </div>
+                    </div>
+                    <div class="titleContainer">
+                        <h6 class="title">Si tuviera que volver a empezar... Cómo lo haría?</h6>
+                    </div>
+                    <span class="material-symbols-outlined icon vertIcon">more_vert</span>
+                </div>
+                <div class="viewsContainer">
+                    <p id="name">Deivchoi</p>
+                    <p>425.451 visualizaciones . 3 años</p>
+                </div>                                   
+            </div>
+        </section>
         <section class="videoContainer">
             <iframe 
                 src="https://www.youtube.com/embed/F9280mMcvKg" 
@@ -72,12 +157,93 @@
             <div class="infoContainer">
                 <div class="descriptionContainer">
                     <div class="avatarContainer">
-                        <div class="avatar"></div>
+                        <div class="avatar">
+                            <img class="avatars" src="./assets/user4.png" alt="avatar1">
+                        </div>
                     </div>
                     <div class="titleContainer">
                         <h6 class="title">COMO PENSAR EN INGLES SN TRADUCIR</h6>
                     </div>
-                    <span class="material-symbols-outlined icon">more_vert</span>
+                    <span class="material-symbols-outlined icon vertIcon">more_vert</span>
+                </div>
+                <div class="viewsContainer">
+                    <p id="name">Miguel Tabasco</p>
+                    <p>1,152333 visualizaciones . 1 años</p>
+                </div>                                   
+            </div>
+        </section>
+        <section class="videoContainer">
+            <iframe 
+                src="https://www.youtube.com/embed/IDf-3ibyHeM" 
+                title="CREA TU APP" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            <div class="infoContainer">
+                <div class="descriptionContainer">
+                    <div class="avatarContainer">
+                        <div class="avatar">
+                            <img class="avatars" src="./assets/user1.png" alt="avatar1">
+                        </div>
+                    </div>
+                    <div class="titleContainer">
+                        <h6 class="title">Música para el Trabajo - Efectividad y Productividad Radio</h6>
+                    </div>
+                    <span class="material-symbols-outlined icon vertIcon">more_vert</span>
+                </div>
+                <div class="viewsContainer">
+                    <p id="name">Work music Lab</p>
+                    <p>123 visualizaciones . 2 años</p>
+                </div>                                   
+            </div>
+        </section>
+        <section class="videoContainer">
+            <iframe 
+                src="https://www.youtube.com/embed/wkjSBC-_bDA" 
+                title="CREA TU APP" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            <div class="infoContainer">
+                <div class="descriptionContainer">
+                    <div class="avatarContainer">
+                        <div class="avatar">
+                            <img class="avatars" src="./assets/user2.png" alt="avatar1">
+                        </div>
+                    </div>
+                    <div class="titleContainer">
+                        <h6 class="title">How do you learn to speak a language? 6 Minute English</h6>
+                    </div>
+                    <span class="material-symbols-outlined icon vertIcon">more_vert</span>
+                </div>
+                <div class="viewsContainer">
+                    <p id="name">BBC Learning English - ¿Quieres aprender a hablar inglés?
+                    </p>
+                    <p>968.768 visualizaciones . 5 años</p>
+                </div>                                   
+            </div>
+        </section>
+        <section class="videoContainer">
+            <iframe 
+                src="https://www.youtube.com/embed/F9280mMcvKg" 
+                title="CREA TU APP" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            <div class="infoContainer">
+                <div class="descriptionContainer">
+                    <div class="avatarContainer">
+                        <div class="avatar">
+                            <img class="avatars" src="./assets/user3.png" alt="avatar1">
+                        </div>
+                    </div>
+                    <div class="titleContainer">
+                        <h6 class="title">COMO PENSAR EN INGLES SN TRADUCIR</h6>
+                    </div>
+                    <span class="material-symbols-outlined icon vertIcon">more_vert</span>
                 </div>
                 <div class="viewsContainer">
                     <p id="name">Miguel Penilla</p>
@@ -96,60 +262,14 @@
             <div class="infoContainer">
                 <div class="descriptionContainer">
                     <div class="avatarContainer">
-                        <div class="avatar"></div>
-                    </div>
-                    <div class="titleContainer">
-                        <h6 class="title">COMO PENSAR EN INGLES SN TRADUCIR</h6>
-                    </div>
-                    <span class="material-symbols-outlined icon">more_vert</span>
-                </div>
-                <div class="viewsContainer">
-                    <p id="name">Miguel Penilla</p>
-                    <p>1,152333M de visualizaciones . 2 años</p>
-                </div>                                   
-            </div>
-        </section>
-        <section class="videoContainer">
-            <iframe 
-                src="https://www.youtube.com/embed/F9280mMcvKg" 
-                title="CREA TU APP" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
-            <div class="infoContainer">
-                <div class="descriptionContainer">
-                    <div class="avatarContainer">
-                        <div class="avatar"></div>
-                    </div>
-                    <div class="titleContainer">
-                        <h6 class="title">COMO PENSAR EN INGLES SN TRADUCIR</h6>
-                    </div>
-                    <span class="material-symbols-outlined icon">more_vert</span>
-                </div>
-                <div class="viewsContainer">
-                    <p id="name">Miguel Penilla</p>
-                    <p>1,152333M de visualizaciones . 2 años</p>
-                </div>                                   
-            </div>
-        </section>
-        <section class="videoContainer">
-            <iframe 
-                src="https://www.youtube.com/embed/F9280mMcvKg" 
-                title="CREA TU APP" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
-            <div class="infoContainer">
-                <div class="descriptionContainer">
-                    <div class="avatarContainer">
-                        <div class="avatar"></div>
+                        <div class="avatar">
+                            <img class="avatars" src="./assets/user4.png" alt="avatar1">
+                        </div>
                     </div>
                     <div class="titleContainer">
                         <h6 class="title">COMO PENSAR EN INGLES SN TRADUCIR PORQUE HABLAR Y PENSAR EN</h6>
                     </div>
-                    <span class="material-symbols-outlined icon">more_vert</span>
+                    <span class="material-symbols-outlined icon vertIcon">more_vert</span>
                 </div>
                 <div class="viewsContainer">
                     <p id="name">Miguel Penilla</p>

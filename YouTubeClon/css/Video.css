@@ -1,14 +1,12 @@
 .avatar {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    border: 1px solid #fff; /*temporal*/
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
 }
-
 .infoContainer {
     display: flex;
     flex-direction: column; 
-    
+    flex:1;
 }
 .descriptionContainer {    
     display: flex;
@@ -35,8 +33,35 @@ iframe {
     color: #8f8f8f;
     font-size: 14px;
 }
+.avatars {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+.vertIcon {
+     margin-right: 0;
+}
+.videoContainer:hover{
+    border: 1px solid #fff;
+    z-index: 1;
+    width: 150%;
+    transition-property: width;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition-delay: 2s;
+  }
+  .viewsContainer:hover {
+    color: white;
+    transition-duration: 2s;
+    transition-property: color;
+}
 
 
 
 
 
+ 
+
+  
