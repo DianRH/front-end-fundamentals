@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Inter:wght@300&family=League+Gothic&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.youTubeIcon {
+    width: 33px;
+    height: 32px;
+    margin: 0 5px;
+}
+.iconName {
+    color: #fff;
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-family: 'League Gothic', sans-serif;
+}
+.inputText {
+    background-color: #0a0a0a;
+    color: #8f8f8f;
+    font-size: 18px;
+    border: 1px solid  #0a0a0a;
+    outline: none;
+    width: 100%;
+    height: 32px;
+    padding-left: 10px;
+}
+.inputText:focus {
+    border: 0.2px solid #005A80;
+  }
+.icon {
+  color: #fff;
+  margin: 0px 15px;
+}
+.settingsIcons {
+    justify-content: end;
+}
+.search {
+    width: 100%;
+    grid-column: 2/4;
+}
+.iconContainer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.gridHeader > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.searchIconContainer {
+    background-color: #494949;
+    width: 50px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatarMain {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #308446;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatarName {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.iconContainerMic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a0a0a;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0px 10px;
+    
+}
+.mic {
+    font-variation-settings:
+    'FILL' 1
+}

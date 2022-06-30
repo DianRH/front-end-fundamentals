@@ -1,14 +1,18 @@
 body {
     margin: 0;
-    padding: 15px;
+    padding: 0 15px;
     box-sizing: border-box;
     width: 100vw;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
-    background-color: black;
+    background-color: #191919;
 }
 .grid {
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     gap: 1em;
+}
+.gridHeader {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);  
 }
