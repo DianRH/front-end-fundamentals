@@ -11,6 +11,7 @@ body {
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     gap: 1em;
+    padding-left: 90px;
 }
 .gridHeader {
     display: grid;

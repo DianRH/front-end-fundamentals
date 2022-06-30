@@ -1,0 +1,25 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #191919;
+    width: 80px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    align-items: center;
+}
+
+aside > a {
+    text-decoration: none;
+    margin: 10px 0px;
+}
+h4 {
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+}
+.weight {
+  font-variation-settings:
+  'wght' 100
+
+}
