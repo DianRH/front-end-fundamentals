@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Inter:wght@300&family=League+Gothic&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
+.gridHeader {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    margin-right: 15px;
+}
 header {
     display: flex;
     flex-direction: row;
@@ -13,7 +18,6 @@ header {
 .iconName {
     color: #fff;
     font-size: 26px;
-    letter-spacing: 1px;
     font-family: 'League Gothic', sans-serif;
 }
 .inputText {
@@ -23,8 +27,9 @@ header {
     border: 1px solid  #0a0a0a;
     outline: none;
     width: 100%;
-    height: 32px;
+    height: 35px;
     padding-left: 10px;
+    border-radius: 2px;
 }
 .inputText:focus {
     border: 0.2px solid #005A80;
@@ -43,8 +48,7 @@ header {
 .iconContainer {
     display: flex;
     align-items: flex-start;
-}
-
+}   
 .gridHeader > div {
     display: flex;
     flex-direction: row;
@@ -53,15 +57,15 @@ header {
 .searchIconContainer {
     background-color: #494949;
     width: 50px;
-    height: 33px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .avatarMain {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
     background-color: #308446;
     display: flex;
     align-items: center;
@@ -69,7 +73,7 @@ header {
 }
 .avatarName {
     color: #fff;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
 }
 .iconContainerMic {
@@ -81,9 +85,16 @@ header {
     height: 40px;
     border-radius: 20px;
     margin: 0px 10px;
-    
 }
 .mic {
     font-variation-settings:
     'FILL' 1
 }
+.menu {
+    width: 70px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+

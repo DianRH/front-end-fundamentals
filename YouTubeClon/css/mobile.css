@@ -1,0 +1,40 @@
+/*------ MOBILE ----------*/
+
+input.inputText {
+    display: none;
+}
+div.iconContainerMic {
+    background-color: #2e2e2e;
+}
+div.searchIconContainer {
+    background-color: #2e2e2e;
+    margin: 0;
+}
+div.search {
+    justify-content: flex-end;
+}
+span.menu {
+    width: 20px;
+    padding: 0 15px 0 0;
+}
+aside {
+    display: none;
+}
+main.grid {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    margin: 0;
+}
+.videoContainer {
+    width: 350px;
+}
+.description > p {
+    font-size: 14px;
+}

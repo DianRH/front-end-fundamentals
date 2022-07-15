@@ -1,0 +1,22 @@
+input.inputText {
+    margin-left: 15px;
+}
+div.search {
+    justify-content: flex-end;
+}
+/*----- Main -----*/
+main.grid {
+    display: flex;
+    flex-wrap: wrap;
+} 
+ .description > p {
+    font-size: 14px;
+} 
+/**---- Main -----**/
+body {
+    overflow-x: hidden;
+}
+.videoContainer {
+    width: 400px;
+}
+
